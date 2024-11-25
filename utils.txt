@@ -1,0 +1,19 @@
+**Créer fichier
+touch nom_du_fichier
+
+**supp fichier
+rm nom_du_fichier
+
+**créer dossier
+mkdir nom_du_dossier
+
+**copy dossier avec fichiers
+cp -r ficier_1 nom_final
+
+**supp dossier
+rm -r nom_du_dossier
+
+
+config utilisateur git
+git config --global user.name "name"
+git config --global user.email "name@email.com"
