@@ -14,6 +14,21 @@ cp -r ficier_1 nom_final
 rm -r nom_du_dossier
 
 
-config utilisateur git
+**config utilisateur git
 git config --global user.name "name"
 git config --global user.email "name@email.com"
+
+**Voir tous les commit et par qui
+git log
+
+**Créer branch
+git branch nom_de_branch
+
+**Verifier branch existantes
+git branch
+
+**changer de branch
+git checkout register
+
+**Créer + changement de branch
+git checkout -b nom_de_la_branch
